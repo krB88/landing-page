@@ -1,0 +1,26 @@
+/* Navbar styling */
+.navbar{
+    background-color: rgb(209, 222, 229);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar__item {
+    display: inline-block;
+    margin: 15px 25px;
+}
+
+.navbar__item a {
+    color: #757e86;
+    font-size: 1.25em;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+.navbar__item a:hover {
+    background-color: rgb(209, 211, 218);
+}
